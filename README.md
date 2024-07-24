@@ -33,24 +33,24 @@ Datetime: Used for getting and formatting the current date and time.
 
 # Functionality Breakdown
 
-# GUI Setup:
-
+GUI Setup:
 The main window is created and configured with a specific size and title.
 Frames are used to organize the layout of the application.
-# Image and Title:
+
+Image and Title:
 An image is loaded and resized using PIL.
 A label is created to display the title of the application along with the image.
 
-# Input Fields:
+Input Fields:
 Labels and entry fields are created for customer details and menu items.
 StringVar variables are used to store and manage the input data.
 
-# Bill Generation:
+Bill Generation:
 The generate_bill function calculates the total cost, service charge, and tax.
 Random numbers are generated for the bill number, customer ID, and order ID.
 A receipt with all details is displayed in a new frame.
 
-# Reset and Exit:
+Reset and Exit:
 The reset function clears all input fields and hides the bill frame.
 The qexit function closes the application.
 
